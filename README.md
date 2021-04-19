@@ -2,10 +2,11 @@
 
 文章整理自：[Vue tricks: smart router for VueJS](https://itnext.io/vue-tricks-smart-router-for-vuejs-93c287f46b50)
 
-
 ## 前言
 
-因为实现的方式有很多种，这里只是分析实现原理，基于`vue-cli`实现的`vue2`和`vue3`版本可以查看原作者的[代码仓库](https://github.com/NovoManu/vue-auto-router)，我这里使用`vite+vue3+ts`的方式实现。
+因为实现的方式有很多种，所以本文只是分析实现原理，基于`vue-cli`实现的`vue2`和`vue3`版本可以查看原作者的[代码仓库](https://github.com/NovoManu/vue-auto-router)，我这里使用`vite+vue3+ts`的方式实现。
+
+[代码仓库地址](https://github.com/YooYooY/vue-automatic-router)
 
 在日常开发中，路由的配置繁琐无趣，我们期望在写页面组件的过程中，自动生成路由配置并且导入页面组件。
 
